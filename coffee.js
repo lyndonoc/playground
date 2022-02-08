@@ -1,0 +1,3 @@
+function getCoffee() {
+  return "coffee";
+}
