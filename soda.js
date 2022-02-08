@@ -1,3 +1,0 @@
-function getSoda() {
-  return "soda";
-}
