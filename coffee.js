@@ -1,4 +1,3 @@
 function getCoffee() {
-  console.log("returning coffe...");
   return "coffee";
 }
