@@ -1,0 +1,19 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyndonoc/playground.git"
+  },
+  "author": "lyndonoc <lyndonoc@gmail.com>",
+  "license": "MIT",
+  "description": "# coffee # coffee # coffee # coffee",
+  "bugs": {
+    "url": "https://github.com/lyndonoc/playground/issues"
+  },
+  "homepage": "https://github.com/lyndonoc/playground#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  }
+}
