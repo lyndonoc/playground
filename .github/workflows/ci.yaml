@@ -1,0 +1,12 @@
+name: apiserver
+on:
+  push:
+    paths:
+      - .github/workflows/apiserver.yaml
+      - apiserver/**
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: yarn test
+
