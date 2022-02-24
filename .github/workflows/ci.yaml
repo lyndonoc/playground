@@ -5,5 +5,5 @@ jobs:
     name: hello-world
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello"
+      - run: sleep 1m && echo "hello"
 
