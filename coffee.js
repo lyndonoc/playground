@@ -3,6 +3,5 @@ function getCoffee() {
 }
 
 function getMoreCoffee() {
-  console.log("coffee");
   return "more coffee";
 }
