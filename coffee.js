@@ -7,3 +7,4 @@ function getMoreCoffee() {
 }
 
 function hello() {}
+function hello() {}
