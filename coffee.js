@@ -5,3 +5,5 @@ function getCoffee() {
 function getMoreCoffee() {
   return "more coffee";
 }
+
+function hello() {}
