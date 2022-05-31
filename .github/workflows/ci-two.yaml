@@ -2,7 +2,7 @@ name: apiserver
 on: [pull_request]
 jobs:
   ggreeting:
-    name: hello-world
+    name: hello-world-two
     runs-on: ubuntu-latest
     steps:
       - run: sleep 3m && echo "hello world"
