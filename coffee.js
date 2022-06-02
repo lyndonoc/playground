@@ -11,3 +11,9 @@ function hello() {}
 function hello() {}
 function hello() {}
 function hello() {}
+
+new line added
+new line added
+
+new line added
+new line added
