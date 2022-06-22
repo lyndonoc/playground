@@ -1,0 +1,19 @@
+name: apiserver
+on: ['push']
+jobs:
+  lint:
+    name: hello-world
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 1m && echo "hello world"
+  lintone:
+    name: hello-world
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 1m && echo "hello world"
+  lintthree:
+    name: hello-world
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 1m && echo "hello world"
+

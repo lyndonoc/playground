@@ -6,4 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: sleep 1m && echo "hello"
+  linttwo:
+    name: hello-world
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 1m && echo "hello two"
 
