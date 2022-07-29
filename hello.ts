@@ -1,3 +1,4 @@
+import React from 'react';
 import { Vector3, Euler, Vector2 } from 'three'
 import { TangramConfiguration } from 'renderables/Tangram'
 
@@ -43,4 +44,49 @@ const frame: TangramConfiguration = {
     },
   ],
 }
+
+class ShoppingList extends React.Component {
+  render() {
+    return (
+      <div className="shopping-list">
+        <h1>Shopping List for {this.props.name}</h1>
+        <ul>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+          <li>Oculus</li>
+        </ul>
+      </div>
+    );
+  }
+}
+
+export const decode = (text) => {
+
+    if (text === '') return '';
+    let input = text;
+    let regex = /((\d+)?(\D))/g;
+    let result = '';
+    let match = regex.exec(input);
+    do {
+        result += match[3].repeat(+match[2]) || match[3];
+        match = regex.exec(input);
+    } while (match);
+
+    return result;
+};
+
+export const encode = (text) => {
+    if (text === '') return '';
+    let input = text;
+    let regex = /(.)\1*/g;
+    let result = '';
+    let match = regex.exec(input);
+    do {
+        match[0].length > 1 ? result += match[0].length + match[1] : result += match[1];
+        match = regex.exec(input);
+    } while (match);
+
+    return result;
+};
+
 export { frame }
